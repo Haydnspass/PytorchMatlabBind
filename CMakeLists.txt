@@ -7,7 +7,7 @@ find_package(Torch REQUIRED)
 
 # Include custom FindMatlab.cmake
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}")
-set(Matlab_ROOT_DIR "/Applications/MATLAB_R2019a.app")
+# set(Matlab_ROOT_DIR "/Applications/MATLAB_R2019a.app")
 find_package(Matlab REQUIRED)
 
 # Build the shared library
