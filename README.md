@@ -15,3 +15,5 @@ cd build
 cmake -DCMAKE_PREFIX_PATH=[PATH TO LIBTORCH] ..
 make  # on unix, on windows open visual studio and build
 ```
+* In matlab add src/matlab and build to the path. An example usage can be found in spikes/example_usage.m
+At the moment it is bit ugly to convert from Col Major to Row Major in Matlab, this might change at some point.
